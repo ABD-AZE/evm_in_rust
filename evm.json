@@ -424,7 +424,8 @@
     "code": {
       "asm": "PUSH1 0xFF\nPUSH1 0\nSIGNEXTEND",
       "bin": "60ff60000b"
-    },
+    }, 
+
     "expect": {
       "stack": [
         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
